@@ -866,7 +866,56 @@ img {
 }
 
 /* For medium devices <> */
+@media (width >= 400px) {
+	.featured__container {
+		grid-template-columns: 312px;
+		justify-content: center;
+	}
 
+	.products__container {
+		display: grid;
+	}
+
+	.products__content {
+		grid-template-columns: repeat(2, 170px);
+		justify-content: center;
+	}
+
+	.products__more {
+		width: initial;
+		justify-self: center;
+	}
+}
+
+@media (width >= 540px) {
+	.home__container, 
+	.about__container, 
+	.contact__container {
+		grid-template-columns: 480px;
+		justify-content: center;
+	}
+}
+
+@media (width >= 768px) {
+	.nav__menu {
+		width: 50%;
+	}
+
+	.featured__container {
+		grid-template-columns: repeat(2, 312px);
+	}
+
+	.products__content {
+		grid-template-columns: repeat(3, 170px);
+	}
+
+	.footer__content {
+		grid-template-columns: repeat(3, max-content);
+		column-gap: 8rem;
+	}
+
+
+}
 
 /* For large devices <> */
 @media (width >= 1150px) {
