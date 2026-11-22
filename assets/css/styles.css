@@ -799,7 +799,71 @@ img {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices <> */
+@media (width <= 340px) {
+	.home__title {
+		font-size: 2.75rem;
+	}
 
+	.home__buttons {
+		flex-direction: column;
+	}
+
+	.home__buttons .button {
+		justify-content: center;
+	}
+
+	.home__bag {
+		width: 240px;
+	}
+
+	.home__cookie {
+		width: 103px;
+	}
+
+	.home__cookie-1 {
+		bottom: 4.25rem;
+		left: 0.625rem;
+	}
+
+	.home__cookie-2 {
+		bottom: 3.875rem;
+	}
+
+	.home__cookie-3 {
+		bottom: 4.25rem;
+		right: 0.5rem;
+	}
+
+	.home__cookie-4 {
+		bottom: 0.5rem;
+		left: 1.5rem;
+	}
+
+	.home__cookie-5 {
+		bottom: 0.875rem;
+		right: 1.5rem;
+	}
+
+	.featured__container {
+		padding-inline: 0;
+	}
+
+	.featured__button {
+		padding: 0.75rem 1rem;
+	}
+
+	.products__card {
+		padding: 0.75rem;
+	}
+
+	.contact__button {
+		padding-inline: 0.75rem;
+	}
+
+	.footer__description {
+		width: initial;
+	}
+}
 
 /* For medium devices <> */
 
