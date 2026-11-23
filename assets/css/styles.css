@@ -954,4 +954,175 @@ img {
 	.nav__link {
 		font-size: var(--h3-font-size);
 	}
+
+	.home__container {
+		grid-template-columns: 580px 400px;
+		justify-content: space-between;
+		align-items: center;
+		padding-top: 1.5rem;
+	}
+
+	.home__data {
+		text-align: initial;
+	}
+
+	.home__rating {
+		font-size: var(--normal-font-size);
+	}
+
+	.home__title {
+		margin-bottom: 3rem;
+	}
+
+	.home__description {
+		padding-right: 7rem;
+		margin-bottom: 3rem;
+	}
+
+	.home__buttons {
+		justify-content: initial;
+		gap: 1rem;
+	}
+
+	.home__bag {
+		width: 400px;
+	}
+
+	.home__cookie {
+		width: 170px;
+	}
+
+	.home__cookie-1 {
+		bottom: 7.25rem;
+		left: 1rem;
+	}
+
+	.home__cookie-2 {
+		bottom: 6.5rem;
+	}
+
+	.home__cookie-3 {
+		bottom: 7.25rem;
+		right: 0.75rem;
+	}
+
+	.home__cookie-4 {
+		bottom: 0.75rem;
+		left: 2.5rem;
+	}
+
+	.home__cookie-5 {
+		bottom: 1.5rem;
+		right: 2.5rem;
+	}
+
+	.featured__container {
+		grid-template-columns: repeat(3, 348px);
+		padding: 6.5rem 0 0;
+	}
+
+	.featured__card {
+		padding: 10rem 1.5rem 2rem;
+	}
+
+	.featured__img {
+		width: 220px;
+	}
+
+	.featured__name {
+		font-size: var(--h2-font-size);
+	}
+
+	.about__container {
+		grid-template-columns: 550px 530px;
+		column-gap: 2.5rem;
+		align-items: center;
+		padding-block: 3rem 2rem;
+	}
+
+	.about__data :is(.section__title, .about__description) {
+		margin-bottom: 2rem;
+	}
+
+	.about__features {
+		row-gap: 2rem;
+		margin-bottom: 4rem;
+	}
+
+	.about__feature-description {
+		font-size: var(--normal-font-size);
+	}
+
+	.products__container {
+		padding-top: 1.5rem;
+	}
+
+	.products__content {
+		grid-template-columns: repeat(3, 238px);
+		gap: 3.5rem 4rem;
+		margin-bottom: 3.5rem;
+	}
+
+	.products__card {
+		padding: 1rem 1.5rem 1.5rem;
+	}
+
+	.products__price {
+		font-size: var(--h2-font-size);
+	}
+
+	.products__add {
+		width: 40px;
+		height: 40px;
+	}
+
+	.contact__container {
+		grid-template-columns: 480px 450px;
+		column-gap: 6rem;
+		align-items: center;
+		padding-block: 1.5rem 2rem;
+	}
+
+	.contact__content {
+		margin-bottom: 3rem;
+	}
+
+	.contact__title {
+		margin-bottom: 0.5rem;
+	}
+
+	.contact__info {
+		font-size: var(--normal-font-size);
+	}
+
+	.contact__button {
+		width: initial;
+	}
+
+	.contact__map {
+		height: 488px;
+	}
+
+	.footer {
+		margin-top: 4rem;
+		padding-block: 4rem 2rem;
+	}
+
+	.footer__container {
+		grid-template-columns: repeat(2, max-content);
+		justify-content: space-between;
+	}
+
+	.footer__logo {
+		font-size: var(--h2-font-size);
+	}
+
+	.footer__description {
+		width: 300px;
+		font-size: var(--normal-font-size);
+	}
+
+	.scrollup {
+		right: 3rem;
+	}
 }
